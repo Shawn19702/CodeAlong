@@ -12,7 +12,7 @@ public class CollectionsDemo {
     }
 
     private static void setDemo() {
-        //Diamond operator gives date type a set could hold
+        //Diamond operator gives the data type a set could hold
         Set<String> fruit = new HashSet();
         fruit.add("apple");
         fruit.add("lemon");
@@ -37,7 +37,7 @@ public class CollectionsDemo {
         for (String item : fruit) {
             System.out.println(item);
         }
-        // this loop works barbecue the hashmap date type is a String
+        // this loop works because the hashmap data type is a String, so we could put String item
 // String item is made in the loop it is not pre declared
 
 
@@ -122,11 +122,11 @@ public class CollectionsDemo {
 
         //You use .put to add items in a Map
 
-        //A Map is not a collection, so you cant use same methods to loop through it
+        //A Map is not a collection, so you cant use same methods to loop through it 
 
         //Map you need to provide two data types in the diamond one for the key and one for the value
 
-        // Need to use Wrapper class Interger because it is an object and int is not
+        // Need to use Wrapper class Integer because it is an object and int is not
 
         // Hashmaps also dont print duplicate values such as the calories in lemon
         Map<String, Integer> fruitcalories = new HashMap();
